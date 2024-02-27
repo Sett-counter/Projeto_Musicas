@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #000;
+    color: #fff;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img.radiohead_img {
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-left: 10px;
+}
+
+div.radiohead {
+    display: flex;
+    align-items: center;
+}
+
+#radiohead-titulo {
+    text-align: center;
+    transform: translate(-390px,47px);
+}
+
+img.korn-img {
+    width: 250px;
+    height: 250px;
+    float: left;
+    margin-left: 50px;
+    
+}
+
+div.korn {
+    display: flex;
+    align-items: center;
+}
+
+#korn-h2 {
+    text-align: center;
+    transform: translate(22px,-98px);
+}
+
+#korn-p {
+    transform: translate(-37px,0);
+
+}
+
+section p{
+    max-width: 1100px;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+form button{
+    background-color: #7b0c0c;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: #314e9e;
+}
+
+input:focus,textarea:focus{
+    outline-color:#182c61 ;
+}
+
+#contato .container{
+    display: block;
+}
+
+.metodos-contato {
+    display: flex;
+    justify-content: space-between;
+}
+
+#contato {
+    margin-top: 55px;
+    margin-right: 98px;
+}
+
+h1.titulo-contato {
+    transform: translate(0px,-19px);
+}
