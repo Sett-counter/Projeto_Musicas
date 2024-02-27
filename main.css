@@ -123,3 +123,17 @@ input:focus,textarea:focus{
 h1.titulo-contato {
     transform: translate(0px,-19px);
 }
+
+head {
+    font-family: "Noto Serif Khojki", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+#conteudo {
+    font-family: "Noto Serif Khojki", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
